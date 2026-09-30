@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Vinayaka K - Personal Website</title>
+
+    <style>
+        /* General styling */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background: linear-gradient(135deg, #0f0f0f, #1c1c1c);
+            color: white;
+            min-height: 100vh;
+        }
+
+        /* Header */
+        header {
+            background: #e10600;
+            padding: 25px;
+            text-align: center;
+            box-shadow: 0 4px 15px rgba(255, 0, 0, 0.4);
+        }
+
+        header h1 {
+            font-size: 40px;
+            letter-spacing: 2px;
+        }
+
+        header p {
+            margin-top: 8px;
+            font-size: 18px;
+        }
+
+        /* Main container */
+        .container {
+            width: 90%;
+            max-width: 900px;
+            margin: 40px auto;
+        }
+
+        /* Cards */
+        .card {
+            background: #222;
+            padding: 30px;
+            margin-bottom: 25px;
+            border-radius: 15px;
+            border-left: 5px solid #e10600;
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.5);
+        }
+
+        .card h2 {
+            color: #ff3333;
+            margin-bottom: 15px;
+        }
+
+        .card p {
+            font-size: 18px;
+            margin: 10px 0;
+        }
+
+        /* Interest list */
+        ul {
+            list-style: none;
+        }
+
+        li {
+            background: #333;
+            margin: 12px 0;
+            padding: 15px;
+            border-radius: 10px;
+            font-size: 20px;
+            transition: 0.3s;
+        }
+
+        li:hover {
+            background: #e10600;
+            transform: translateX(10px);
+        }
+
+        /* Footer */
+        footer {
+            text-align: center;
+            padding: 20px;
+            background: #111;
+            color: #aaa;
+            margin-top: 40px;
+        }
+
+        /* Mobile responsive */
+        @media (max-width: 600px) {
+            header h1 {
+                font-size: 30px;
+            }
+
+            .container {
+                width: 95%;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>🏁 Vinayaka K</h1>
+        <p>BE Computer Science Student</p>
+    </header>
+
+    <div class="container">
+
+        <div class="card">
+            <h2>👨‍💻 About Me</h2>
+            <p><strong>Name:</strong> Vinayaka K.</p>
+            <p><strong>Education:</strong> BE Computer Science</p>
+        </div>
+
+        <div class="card">
+            <h2>🔥 My Interests</h2>
+
+            <ul>
+                <li>🏎️ Formula 1</li>
+                <li>🏍️ Kawasaki Bikes</li>
+                <li>🦐 Seafood</li>
+            </ul>
+        </div>
+
+        <div class="card">
+            <h2>🚀 My Goal</h2>
+            <p>
+                I am passionate about Computer Science, technology,
+                Formula 1 and motorcycles.
+            </p>
+        </div>
+
+    </div>
+
+    <footer>
+        <p>© 2026 Vinayaka K | Personal Website</p>
+    </footer>
+
+</body>
+</html>
